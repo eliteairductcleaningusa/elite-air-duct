@@ -9,7 +9,7 @@
 <meta property="og:description" content="Air duct, dryer vent & chimney cleaning. Free estimate. Book online 24/7.">
 <meta property="og:image" content="assets/og.jpg">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#0b2a5b">
+<meta name="theme-color" content="#061a40">
 <link rel="icon" href="assets/favicon.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Elite Air Duct Cleaning USA","image":"assets/og.jpg","telephone":"+17717171377","email":"eliteairductcleaningusa102@gmail.com","areaServed":"United States","openingHours":"Su-Fr 09:00-17:00","sameAs":["https://www.instagram.com/eliteairductcleaningusa/"],"makesOffer":["Air Duct Cleaning","Dryer Vent Cleaning","Chimney Cleaning"]}</script>
 <style>
@@ -62,6 +62,34 @@ footer{background:#071d42;color:#b7c9ea;padding:36px 0;font-size:.9rem}footer .c
 .g2{display:grid;grid-template-columns:1fr 1fr;gap:22px}.pnl{background:#fff;border-radius:16px;padding:24px;box-shadow:0 6px 24px #0b2a5b1a}.pnl h3{margin-bottom:10px}
 .ck{list-style:none;padding:0;color:var(--mut);display:grid;gap:8px;margin-bottom:16px}.ck li:before{content:"⚠️ "}
 @media(max-width:860px){.g2{grid-template-columns:1fr}}
+
+/* ===== Blue & white glow theme ===== */
+:root{--navy:#061a40;--blue:#1d5fe0;--green:#2f7bff;--sky:#38bdf8;--bg:#eef5ff}
+@keyframes pan{to{background-position:-200% 0}}@keyframes shine{to{transform:translateX(120%)}}
+@keyframes jet{0%{transform:translateX(0);opacity:0}12%{opacity:.9}100%{transform:translateX(420%);opacity:0}}
+@keyframes float{50%{transform:translate(40px,30px)}}@keyframes bob{50%{transform:translateY(-10px)}}
+header{background:#ffffffd9;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}.logo img{filter:drop-shadow(0 0 8px #38bdf888)}
+.ann{background:linear-gradient(90deg,#0a3a9c,#2f7bff,#0a3a9c);background-size:200% 100%;animation:pan 6s linear infinite;position:relative;overflow:hidden}
+.ann:after,.b1:after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,#fff8 50%,transparent 70%);transform:translateX(-120%);animation:shine 3.2s infinite 1s}
+.btn{position:relative;overflow:hidden;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px)}
+.b1{background:linear-gradient(135deg,#2f7bff,#38bdf8);box-shadow:0 8px 26px #2f7bff66,inset 0 0 0 1px #ffffff40}
+.b2{background:linear-gradient(135deg,#1d5fe0,#0a3a9c);box-shadow:0 8px 20px #1d5fe044}
+.hero{position:relative;overflow:hidden;background:radial-gradient(900px 500px at 85% -10%,#2f7bff66,transparent 60%),radial-gradient(700px 500px at -10% 110%,#38bdf83a,transparent 60%),linear-gradient(135deg,#041233,#0a2a6b 60%,#0d47b8)}
+.hero:before{content:"";position:absolute;width:440px;height:440px;border-radius:50%;background:radial-gradient(#38bdf877,transparent 65%);top:-120px;left:-90px;animation:float 9s ease-in-out infinite}
+.hero .c{position:relative;z-index:2}
+.hero h1 span{background:linear-gradient(90deg,#7dd3fc,#fff,#7dd3fc);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:pan 5s linear infinite}
+.jets{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+.jets i{position:absolute;left:-45%;height:2px;border-radius:2px;background:linear-gradient(90deg,transparent,#7dd3fc,#fff);box-shadow:0 0 12px #7dd3fc;opacity:0;animation:jet 5.5s linear infinite}
+.chk{background:#ffffff1f;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid #ffffff59;color:#fff;box-shadow:0 20px 60px #0007,0 0 44px #38bdf833}.chk h3{color:#fff}.chk small{color:#cfe4ff}.chk input{background:#fffffff2}
+.alt{background:linear-gradient(180deg,#eef5ff,#e1eeff)}.tag{background:#e0edff;color:#1d5fe0}.note{background:#e8f2ff;border-color:#b9d6ff}
+.big{background:linear-gradient(90deg,#0a3a9c,#2f7bff,#38bdf8,#0a3a9c);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:pan 4s linear infinite}.big em{color:inherit}
+.offer img{animation:bob 6s ease-in-out infinite;box-shadow:0 20px 60px #2f7bff55,0 0 50px #38bdf844}
+.card,.ben,.step,.pnl,.st,.gal figure,details{border:1px solid #d6e6ff;transition:transform .3s,box-shadow .3s}
+.card:hover,.ben:hover,.step:hover,.pnl:hover,.gal figure:hover{transform:translateY(-6px);box-shadow:0 18px 40px #2f7bff33,0 0 0 1px #38bdf866}
+.step:before{background:linear-gradient(135deg,#2f7bff,#38bdf8);box-shadow:0 0 16px #38bdf8aa}
+.bar .g{background:linear-gradient(135deg,#2f7bff,#1d5fe0)}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}.jets{display:none}}
 </style>
 </head>
 <body>
@@ -72,7 +100,7 @@ footer{background:#071d42;color:#b7c9ea;padding:36px 0;font-size:.9rem}footer .c
 <nav><a href="#services">Services</a><a href="#results">Results</a><a href="#areas">Areas</a><a href="#faq">FAQ</a><a class="btn b1" href="#book">Book Now</a></nav>
 </div></header>
 
-<section class="hero" id="top"><div class="c">
+<section class="hero" id="top"><div class="jets" aria-hidden="true"><i style="top:14%;width:30%;animation-delay:0s"></i><i style="top:26%;width:18%;animation-delay:1.8s"></i><i style="top:38%;width:34%;animation-delay:3.2s"></i><i style="top:52%;width:22%;animation-delay:0.9s"></i><i style="top:64%;width:38%;animation-delay:2.6s"></i><i style="top:76%;width:20%;animation-delay:4.1s"></i><i style="top:88%;width:28%;animation-delay:1.3s"></i></div><div class="c">
 <div>
 <h1>Cleaner Ducts. <span>Healthier Home.</span></h1>
 <p>Professional air duct, dryer vent and chimney cleaning across the USA. Send your ZIP code, get a free estimate, and book your appointment online in under a minute.</p>
@@ -230,6 +258,7 @@ $("#bf").addEventListener("submit",function(e){
  var req=FORM_KEY?fetch("https://api.web3forms.com/submit",{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(Object.assign({access_key:FORM_KEY,subject:"New booking request - Elite Air Duct"},Object.fromEntries(fd)))}).then(function(r){return r.json()}).then(function(j){if(!j.success)throw 0}):fetch("/",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:body}).then(function(r){if(!r.ok)throw 0});
  req.then(done).catch(function(){window.open(wa(msg),"_blank");done()});
 });
+if("IntersectionObserver"in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){var t=e.target;t.classList.add("in");io.unobserve(t);setTimeout(function(){t.classList.remove("rv","in");t.style.transitionDelay=""},950)}})},{threshold:.12});$$(".card,.ben,.step,.pnl,.st,.gal figure,details,.offer img,.bk,.sec h2").forEach(function(el,i){el.classList.add("rv");el.style.transitionDelay=(i%4)*70+"ms";io.observe(el)})}
 </script>
 </body>
 </html>
